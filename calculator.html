@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Load Calculator</title>
+    <script type="text/javascript" src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1> 💰💰Loan Calculator 💵</h1>
+    </header>
+    <section class="calc-container">
+      <form id="calc-form">
+        <label>
+          Loan Amount
+          <input type="text" id="loan-amount">
+        </label>
+        <label>
+          Term in Years
+          <input type="text" id="loan-years">
+        </label>
+        <label>
+          Yearly Rate
+          <input type="text" id="loan-rate">
+        </label>
+        <button type="submit" id="calc-submit"> Calculate </button>
+      </form>
+      <div>
+        <h3>Monthly Payment<h3>
+        <span id="monthly-payment"></span>
+      </div>
+    </section>
+  </body>
+</html>
